@@ -1,3 +1,5 @@
+package com.screen.cast;
+
 import java.awt.AWTException;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -157,7 +159,6 @@ public class ScreenShare {
 					e.printStackTrace();
 				}
 			}
-
 		}  catch (AWTException e) {
 			e.printStackTrace();
 		} catch (IOException e1) {
